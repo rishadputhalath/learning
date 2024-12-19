@@ -13,9 +13,7 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    - name: failed step
-     run: |
-       echo "i will fail"
-       exit0
+     run: echo "i will fail"
    - name: say goodbye
      run: |
       echo "goodbye!"
