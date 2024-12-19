@@ -7,13 +7,14 @@ on:
 jobs:
   job1:
    runs-on:ubuntu-latest
-   steps:
+  steps:
     -name:hello world
-    run: echo "helloworld"
+    run:|
+     echo "helloworld"
 
 
   job2:
-  runs-on:ubuntu-latest
+   runs-on: ubuntu-latest
   steps:
    -name:failed step
    run:
